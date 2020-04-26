@@ -160,7 +160,7 @@ StyledItem {
 
     property real edgeSize: units.gu(settings.edgeDragWidth)
 
-    WallpaperResolver {
+    ImageResolver {
         id: wallpaperResolver
         objectName: "wallpaperResolver"
 
